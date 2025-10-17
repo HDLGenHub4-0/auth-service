@@ -4,5 +4,15 @@ name = "auth_service"
 version = "0.1.0"
 distribution = "2201.12.7"
 
+[[dependency]]
+org = "ballerinax"
+name = "mysql"
+version = "1.13.0"
+
+[[dependency]]
+org = "ballerinax"
+name = "mysql.driver"
+version = "1.6.0"
+
 [build-options]
 observabilityIncluded = true
